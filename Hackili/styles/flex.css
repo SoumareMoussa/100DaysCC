@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.menu_container {
+    color:#fff;
+    background-color: #5995DA;
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu {
+    
+    width: 900px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    background-color: #D6E9FE;
+}
+.header { 
+    display: flex;
+    justify-content:space-between;
+    width: 900px;
+    height: 300px;
+    align-items: center;
+}
+
+.social,.logo,.subscribe {
+    border:1px solid #5995DA;
+}

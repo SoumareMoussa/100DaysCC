@@ -1,0 +1,183 @@
+
+
+body {
+   background-color: black; 
+}
+
+.contents, #copyright {
+    width:900px;
+   
+
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.heroBanner, #copyright {
+    background-color:#1F2937;
+    color:#fff;
+
+}
+
+
+
+#copyright {
+    color:#fff;
+    text-align: center;
+    margin:0 auto;
+
+    
+}
+
+#navigation {
+    display: flex;
+  
+   
+   
+}
+
+
+#navigation > div:nth-child(1) {
+    
+    
+    margin-right: 200px;
+    background-color: #96ceb4;
+    padding:10px;
+    
+    
+
+}
+
+#top_right_menu {
+  
+    display: flex;
+    justify-content: space-evenly;
+    width:400px;
+    flex:1;
+  
+  
+    
+}
+
+.accroche {
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+   
+
+}
+.accroche > .accroche_items {
+
+    width: 300px;
+    
+}
+.accroche > h1 {
+    font: 48px extra-bold #F9FAF8;
+    color:#fff;
+}
+
+.imgPlaceholder {
+    background-color:grey;
+    width: 300px;
+    height:200px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    
+    
+   
+}
+
+.inscription {
+    border-radius: 5px;
+    border:1px solid #fff;
+    background-color: #237bf6;
+    color:#fff;
+    padding:5px;
+}
+
+
+
+#curriculum {
+
+    display: flex;
+    background-color: #fff;
+    padding:5px;
+    justify-content: center;
+    
+}
+
+.curr_item{
+
+    border: 2px solid #237bf6;
+    border-radius: 5px;
+    width:100px;
+    height:100px;
+    margin:10px;
+    
+   
+}
+.modules {
+    
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+
+ #bottom {
+    background-color: #fff;
+    padding:5px;
+ }
+
+.quote {
+    background-color:#E5E7EB;
+    font: 36px bold italic;
+    text-align: center;
+    padding: 60px;
+   
+    
+}
+.author {
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer_cta {
+    background-color: #237bf6;
+    border-radius: 5px;
+    padding:20px;
+    width: 400px;
+    margin-left:250px;
+}
+
+
+
+
+
+
+/*
+.container > .curriculum {
+     height: 300px;
+
+}
+#navigation > div:nth-child(1) {
+    background-color: #96ceb4;
+}
+
+#navigation > div:nth-child(2) {
+    background-color: #ff6f69;
+}
+
+#navigation > div:nth-child(3) {
+    background-color: #88d8b0;
+}
+*/
+
